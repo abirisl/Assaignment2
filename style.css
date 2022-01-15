@@ -1,6 +1,16 @@
-.header{
+.headerline{
     display: flex;
-    padding: 40px;
+    padding: 20px;
+    background-color: rgb(2, 2, 2);
+}
+.head-pic img{
+    width: 300px;
+    padding: 60px;
+}
+#first-heading{
+   
+    margin-right: 250px;
+    padding: 50px;
 }
 
 nav ul{
@@ -13,42 +23,101 @@ nav li{
 }
 nav li a{
     text-decoration: none;
-    color: black;
+    color:whitesmoke;
+    font-weight:700;
     font-size: 20px;
 }
 .menu{
     margin-left: 350px;
     margin-top: 20px;
 }
-h3{
+h4{
     font-size: 30px;
     margin-left: 40px;
+    color:whitesmoke;
 }
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+}
+h6{
+    font-size: 20px;
+}
+
 .link-button{
     padding: 10px 20px;
     text-decoration: none;
     color: cornsilk;
     font-weight: 700;
-    background-color: blueviolet;
+    background-color: rgb(223, 14, 143);
     border-radius: 10px;
 }
 .container{
     display: flex;
-    padding: 20px;
+    height: 300px;
+    padding: 30px;
+  
+   
 }
-.heading{
-    margin-left: 50px;
-    margin-right: 300px;
+.rating{
+    margin-left: 20px;
+    display: flex;
+    font-size: 12px;
 }
-.head-pic img{
-    height: 350px;
-    margin-right: 30px;
-
+.fa-star.filled{
     
+    color: goldenrod;
+}
+.fa-star.empty{
+    color: gray;
+}
+
+#heading{
+  
+   margin-left: 10%;
+}
+.popular .popular-collection img{
+   width: 200px;
+   padding: 20px;
+}
+
+ p{
+    margin-left: 20px;
+}
+.collection-title{
+    margin-left: 20px;
+}
+.populars{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    padding: 200px;
+    margin-top: -150px;
+}
+.popular{
+    width: 250px;
+   margin-top: 20px;
+    border-radius: 2px solid black;
+    box-shadow: 2px 5px 10px 3px rgb(3, 3, 27);
+   
+}
+.popular-collection img{
 
 }
 
-
+footer{
+    height: 200px;
+    
+    background-color:rgb(3, 3, 27);
+}
+.topper{
+  
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 100px;
+}
+    
