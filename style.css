@@ -1,18 +1,13 @@
+/* nav bar css */
 .headerline{
     display: flex;
     padding: 20px;
     background-color: rgb(2, 2, 2);
 }
-.head-pic img{
-    width: 300px;
-    padding: 60px;
+.menu{
+    margin-left: 500px;
+    margin-top: 20px;
 }
-#first-heading{
-   
-    margin-right: 250px;
-    padding: 50px;
-}
-
 nav ul{
     display: flex;
    
@@ -27,9 +22,12 @@ nav li a{
     font-weight:700;
     font-size: 20px;
 }
-.menu{
-    margin-left: 350px;
-    margin-top: 20px;
+/* nav bar css end */
+
+#first-heading{
+   
+    margin-right: 100px;
+    padding: 50px;
 }
 h4{
     font-size: 30px;
@@ -39,11 +37,7 @@ h4{
 h1{
     font-size: 40px;
 }
-h2{
-    font-size: 40px;
-    text-align: center;
-    margin-top: 200px;
-}
+
 h6{
     font-size: 20px;
 }
@@ -56,33 +50,44 @@ h6{
     background-color: rgb(223, 14, 143);
     border-radius: 10px;
 }
+.logo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 25px;
+    margin-top: 200px;
+  box-shadow:1px 1px 5px gray;
+   
+}
+/* lst container css start*/
 .container{
     display: flex;
     height: 300px;
-    padding: 30px;
-  
-   
+    padding: 20px;  
 }
-.rating{
-    margin-left: 20px;
-    display: flex;
-    font-size: 12px;
+.head-pic img{
+    height: 200px;
+    width: 250px;
+    padding: 60px;
 }
-.fa-star.filled{
-    
-    color: goldenrod;
-}
-.fa-star.empty{
-    color: gray;
-}
-
 #heading{
   
-   margin-left: 10%;
+    margin-left: 10%;
+ }
+ .heading-color{
+    color: rgb(10, 179, 10);
 }
+/* lst container css end */
+/* main container css start */
 .popular .popular-collection img{
    width: 200px;
    padding: 20px;
+}
+.collection-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
 }
 
  p{
@@ -91,11 +96,16 @@ h6{
 .collection-title{
     margin-left: 20px;
 }
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 200px;
+}
 .populars{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
-    padding: 200px;
+    padding: 250px;
     margin-top: -150px;
 }
 .popular{
@@ -105,19 +115,34 @@ h6{
     box-shadow: 2px 5px 10px 3px rgb(3, 3, 27);
    
 }
-.popular-collection img{
+.fa-star{
+    font-size: 12px;
 
 }
-
+.fa-star.filled{
+    
+    color: goldenrod;
+}
+.fa-star.empty{
+    color: gray;
+}
+/* main container css end */
+/* footer area */
 footer{
     height: 200px;
-    
-    background-color:rgb(3, 3, 27);
-}
-.topper{
-  
+    background-color: rgb(1, 6, 31);
     color: whitesmoke;
     text-align: center;
-    margin-top: 100px;
-}
     
+}
+.copper{
+   padding: 20px;
+  
+}
+/* footer area */
+/*......................
+     media queries
+ ..................... */
+
+
+/* mobile devices*/
